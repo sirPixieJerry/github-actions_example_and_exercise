@@ -1,0 +1,15 @@
+name: 'jerrys-poke-api-check'
+description: 'Call the Poke-API and get a result'
+inputs:
+  pokemon_id:
+    description: 'number of the pokemon in the pokedex'
+    required: true
+    default: 1
+outputs:
+  pokeman_name:
+    description: 'name of the pokemon'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.pokemon_id }}
