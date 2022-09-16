@@ -10,5 +10,5 @@ jobs:
           node-version: "14"
       - run: npm install -g bats
       - run: bats -v
-      - run: ./actions/hello-world-by-action
-      - run: ./actions/hello-world-print-time-action
+      - run: ../actions/hello-world-by-action
+      - run: ../actions/hello-world-print-time-action
