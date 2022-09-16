@@ -23,7 +23,7 @@ jobs:
           who-to-greet: Mineko
 
       - name: jerrys-poke-api-check
-        uses: ./.github/actions/api-check-action
+        uses: ./actions/api-check-action
         id: pokemon
         with:
           pokemon_id: 150
