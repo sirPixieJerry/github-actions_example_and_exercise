@@ -1,3 +1,4 @@
+--- #start document
 name: learn-github-actions
 on: [push]
 jobs:
@@ -15,3 +16,8 @@ jobs:
         uses: lgmorand/github-action-hello@v2.0.0
         with:
           firstname: Jerry
+      - name: Test Javascript Hello Action
+        uses: adeloyedeji/github-actions-hello@v1.0
+        with:
+          who-to-greet: Mineko
+... #end document
