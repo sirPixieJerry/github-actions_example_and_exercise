@@ -10,5 +10,4 @@ jobs:
           node-version: "14"
       - run: npm install -g bats
       - run: bats -v
-      - run: ./.github/actions/hello-world-by-action/action.yml
       - run: ./.github/actions/hello-world-print-time-action/action.yml
