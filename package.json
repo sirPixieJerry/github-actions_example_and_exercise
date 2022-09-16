@@ -1,0 +1,23 @@
+{
+    "name": "github-actions_example_and_exercise",
+    "version": "1.0.0",
+    "description": "Just a small repo to practice GitHub-Actions and get used to the Syntax",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sirPixieJerry/github-actions_example_and_exercise.git"
+    },
+    "author": {
+        "name": "sirPixieJerry",
+        "email": "jerry.bucquet@gmail.com",
+        "url": "https://github.com/sirPixieJerry"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sirPixieJerry/github-actions_example_and_exercise/issues"
+    },
+    "homepage": "https://github.com/sirPixieJerry/github-actions_example_and_exercise#readme"
+}
